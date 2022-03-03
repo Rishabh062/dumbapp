@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    background-color: azure;
+}
+
+button{
+    outline: none;
+    background-color: lightblue;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 30px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+
+div{
+    /* center a div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+#write{
+    font-size: 40px;
+    color: rgb(55, 14, 200);
+    font-weight: bold;
+}
+#no:hover{
+    margin-top: 100px;
+  
+}
+
+.title{
+    font-size: 23px;
+    color: rgb(55, 14, 1);
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and ( max-width: 600px){
+    #write{
+        font-size: 24px;
+    }
+    .title{
+        font-size: 17px;
+    }
+    button{
+        font-size: 18px;
+    }
+}
